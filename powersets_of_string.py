@@ -3,7 +3,6 @@ def generate_all_subsets(lst):
     tmp = []
     final_res = []
     a = list(lst)
-    a = [1,2,3]
     final_res = printall(a, 0, tmp, final_res)
     
     return final_res
@@ -20,6 +19,5 @@ def printall(s, i,res,final_res):
 s = str(input())
 
 res = generate_all_subsets(s)
-print(res)
 for res_cur in res:
     print(str(res_cur))
