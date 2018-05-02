@@ -16,7 +16,6 @@ def find_max_sub_array(a,n):
     return max_sum
     
 a = [-3,2,-4,-1,-3,1,5]
-print(max_sub_array(a))
 b = [1,5,3,19,18,25]
 print(find_min_diff(b, len(b)))
 
